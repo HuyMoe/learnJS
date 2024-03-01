@@ -3,9 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
 </head>
 <body>
+    <div>
+        <h2>Danh sách khóa học</h2>
+        <ul id="list-courses"></ul>
+    </div>
+    <div>
+        <div>
+            <label for="">Tên khóa học</label>
+            <input type="text" name="name">
+        </div>
+        <div style="margin-top: 10px;">
+            <label for="" style="margin-right: 50px;">Mô tả</label>
+            <input type="text" name="description">
+        </div>
+        <div style="margin-top: 10px;">
+            <button id="create-btn">Thêm khóa học</button>
+            <button id="save-btn" class="hide">Lưu</button>
+        </div>
+    </div>
     <script src="./fetchAPI.js"></script>
 </body>
 </html>

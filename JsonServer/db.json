@@ -1,9 +1,24 @@
 {
-    "courses": [
-        {
-            "id": 1,
-            "name": "javaScript",
-            "description": "intro course javaScript"
-        }
-    ]
+  "courses": [
+    {
+      "name": "Kiến Thức Nhập Môn IT",
+      "description": "Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này trước nhé.",
+      "id": "7754"
+    },
+    {
+      "name": "Responsive Với Grid System",
+      "description": "Trong khóa này chúng ta sẽ học về cách xây dựng giao diện web responsive với Grid System, tương tự Bootstrap 4.",
+      "id": "3426"
+    },
+    {
+      "name": "Lập Trình JavaScript Cơ Bản",
+      "description": "Học Javascript cơ bản phù hợp cho người chưa từng học lập trình. Với hơn 100 bài học và có bài tập thực hành sau mỗi bài học.",
+      "id": "4674"
+    },
+    {
+      "name": "Làm việc với Terminal & Ubuntu",
+      "description": "Sở hữu một Terminal hiện đại, mạnh mẽ trong tùy biến và học cách làm việc với Ubuntu là một bước quan trọng trên con đường trở thành một Web Developer.",
+      "id": "3013"
+    }
+  ]
 }
